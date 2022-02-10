@@ -1,11 +1,16 @@
+import java.util.Scanner;
+
 public class sixth {
     public static void main(String[] args){
-        int a = 6;
-        int b = 3;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите число a");
+        int a = scanner.nextInt();
+        System.out.println("Введите число b");
+        int b = scanner.nextInt();
         if (a > b) {
-            System.out.println(a);
+            System.out.println("Большее число из введенных - " + a);
         } else {
-            System.out.println(b);
+            System.out.println("Большее число из введенных - " + b);
         }
     }
 }

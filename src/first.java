@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class first {
     public static void main(String[] args) {
-        int a = -2000;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите число");
+        int a = scanner.nextInt();
         int countOfNumbers = 0;
         for (int i = a ; i != 0; i = i / 10)
             countOfNumbers =countOfNumbers + 1;

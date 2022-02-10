@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class seven {
     public static void main(String[] args){
-        int b = 122;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите колличество программистов");124
+        int b = scanner.nextInt();
         int a = b % 10;
         if (b < 0){
             System.out.println("Ошибка");

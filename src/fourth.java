@@ -1,8 +1,14 @@
+import java.util.Scanner;
+
 public class fourth {
     public static void main(String[] args) {
-        int a = -1;
-        int b = -3;
-        int c = 5;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите число a");
+        int a = scanner.nextInt();
+        System.out.println("Введите число b");
+        int b = scanner.nextInt();
+        System.out.println("Введите число c");
+        int c = scanner.nextInt();
         int x = 0;
 
         if (a > 0) {
